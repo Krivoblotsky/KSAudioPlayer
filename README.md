@@ -29,24 +29,33 @@ Play:
 
 Pause:
 
-`- (void)pause;`
+```objc
+- (void)pause;
+```
 
 Resume:
 
-`- (void)resume;`
+```objc
+- (void)resume;
+```
 
 Is playing?:
 
-`- (BOOL)isPlaying;`
+```objc
+- (BOOL)isPlaying;
+```
 
 Get current track duration:
 
-`- (NSTimeInterval)duration;`
+```objc
+- (NSTimeInterval)duration;
+```
 
 Get current track position:
 
-`- (NSTimeInterval)position;`
-
+```objc
+- (NSTimeInterval)position;
+```
 
 ###Dead-simple protocol:
 
