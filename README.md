@@ -92,9 +92,9 @@ Get current track position:
 3. Instantiate KSAudioPlayer and have fun:
 
 ```objc
-    NSURL *fileURL = [[NSBundle mainBundle] URLForResource:@"Meat Loaf - Dead Ringer" withExtension:@"wv"];
-    
-    self.player = [KSAudioPlayer new];
-    [self.player playItemWithURL:fileURL];
+NSURL *fileURL = [[NSBundle mainBundle] URLForResource:@"Meat Loaf - Dead Ringer" withExtension:@"wv"];
+
+self.player = [KSAudioPlayer new];
+[self.player playItemWithURL:fileURL];
 ```
 
