@@ -5,6 +5,7 @@ v 0.0.1
 Drop-in iOS Audio Player built on top of BASS-library. 
 
 <b>Supported file formats:</b>
+
 *.m4a,
 *.mp3,
 *.mp2, 
