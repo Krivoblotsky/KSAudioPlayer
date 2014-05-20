@@ -23,7 +23,9 @@ Drop-in iOS Audio Player built on top of BASS-library.
 
 Play:
 
-```objc- (BOOL)playItemWithURL:(NSURL *)url;```
+```objc
+- (BOOL)playItemWithURL:(NSURL *)url;
+```
 
 Pause:
 
