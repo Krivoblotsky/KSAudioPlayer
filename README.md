@@ -25,7 +25,8 @@ Interface is dead-simple:
 @property (nonatomic, weak) id <KSAudioPlayerDelegate> delegate;
 
 /*
-Play. Existing channel will be released
+Play.
+Existing channel will be released
  */
 - (BOOL)playItemWithURL:(NSURL *)url;
 
