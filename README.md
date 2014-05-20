@@ -18,7 +18,7 @@ Drop-in iOS Audio Player built on top of BASS-library.
 
 Interface is dead-simple:
 
-'
+'''
 @interface KSAudioPlayer : NSObject
 
 @property (nonatomic, weak) id <KSAudioPlayerDelegate> delegate;
@@ -43,4 +43,4 @@ Play. Existing channel will be released
 - (NSTimeInterval)position;
 @end
 
-'
+'''
