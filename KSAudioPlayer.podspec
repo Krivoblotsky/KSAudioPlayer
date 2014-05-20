@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { "Serg Krivoblotsky" => "krivoblotsky@me.com" }
   s.source       = { :git => "https://github.com/Alterplay/APAddressBook.git",
 		                 :tag => s.version.to_s }
-  s.source_files = 'KSAudioPlayer/**/*.{h,m}'
+  s.source_files = 'KSAudioPlayer/**/*.{h,m,a}'
   s.ios.deployment_target = "6.0"
   s.requires_arc = true
   s.frameworks   = 'AVFoundation'
