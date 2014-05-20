@@ -31,6 +31,9 @@ Play. Existing channel will be released
  */
 - (NSTimeInterval)duration;
 - (NSTimeInterval)position;
+
+@property (nonatomic, assign) CGFloat volume;
+
 @end
 
 @protocol KSAudioPlayerDelegate <NSObject>

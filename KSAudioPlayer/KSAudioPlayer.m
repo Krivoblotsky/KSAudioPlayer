@@ -50,6 +50,9 @@ void CALLBACK ChannelEndedCallback(HSYNC handle, DWORD channel, DWORD data, void
                                                  selector:@selector(audioInteruptionOccured:)
                                                      name:AVAudioSessionInterruptionNotification
                                                    object:nil];
+        
+        //Set volume
+        _volume = BASS_GetConfig(BASS_CONFIG_GVOL_STREAM) / 10000.0f;
     }
     return self;
 }
@@ -124,6 +127,11 @@ void CALLBACK ChannelEndedCallback(HSYNC handle, DWORD channel, DWORD data, void
     QWORD len = BASS_ChannelGetPosition(_channel, BASS_POS_BYTE);
     double position = BASS_ChannelBytes2Seconds(_channel, len);
     return position;
+}
+
+- (void)setVolume:(CGFloat)volume {
+    _volume = volume;
+    BASS_SetConfig(BASS_CONFIG_GVOL_STREAM, volume * 10000.0);
 }
 
 #pragma mark -
