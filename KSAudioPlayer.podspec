@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Krivoblotsky/KSAudioPlayer.git",
 		                 :tag => s.version.to_s }
   s.source_files = 'KSAudioPlayer/**/*.{h,m}'
-  s.libraries = 'KSAudioPlayer/bass/*.a'
+  s.ios.vendored_library = 'KSAudioPlayer/bass/libbass.a', 'KSAudioPlayer/bass/plugins/bassflac/libbassflac.a', 'KSAudioPlayer/bass/plugins/bassopus/libbassopus.a', 'KSAudioPlayer/bass/plugins/basswv/libbasswv.a'
   s.ios.deployment_target = "6.0"
   s.requires_arc = true
   s.frameworks   = 'AVFoundation'
