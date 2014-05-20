@@ -94,14 +94,23 @@ Get and set volume:
 
 ###Integration:
 
+Cocoapods:
+```ruby
+pod 'KSAudioPlayer'
+```
+
+Manually:
+
 1. Drag-and-drop KSAudioPlaeyr folder into your project.
 2. Add AVFoundation.framework to your project
 3. Instantiate KSAudioPlayer and have fun:
 
 ```objc
-NSURL *fileURL = [[NSBundle mainBundle] URLForResource:@"Meat Loaf - Dead Ringer" withExtension:@"wv"];
-
+//Somewhere during init
 self.player = [KSAudioPlayer new];
+
+//Somewhere else
+NSURL *fileURL = [[NSBundle mainBundle] URLForResource:@"Meat Loaf - Dead Ringer" withExtension:@"wv"];
 [self.player playItemWithURL:fileURL];
 ```
 
