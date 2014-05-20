@@ -118,3 +118,5 @@ http://www.un4seen.com/bass.html#license
 1. Seek to time.
 2. Online streaming.
 
+
+Feel free to open issues and pull requests. Or email me krivoblotsky@me.com
