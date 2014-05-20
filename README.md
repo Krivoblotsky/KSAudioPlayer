@@ -57,6 +57,13 @@ Get current track position:
 - (NSTimeInterval)position;
 ```
 
+Get and set volume:
+
+```objc
+//0..1
+@property (nonatomic, assign) CGFloat volume;
+```
+
 ###Dead-simple protocol:
 
 ```objc
