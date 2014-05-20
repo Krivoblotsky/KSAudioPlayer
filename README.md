@@ -105,3 +105,7 @@ BASS is an audio library for use in software on several platforms. Its purpose i
 http://www.un4seen.com
 
 http://www.un4seen.com/bass.html#license
+
+###What's next?:
+
+1. Online streaming.
