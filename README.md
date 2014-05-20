@@ -19,6 +19,10 @@ Drop-in iOS Audio Player built on top of BASS-library.
 
 Interface is dead-simple:
 
+Play:
+
+`- (BOOL)playItemWithURL:(NSURL *)url;`
+
 ```
 @interface KSAudioPlayer : NSObject
 
