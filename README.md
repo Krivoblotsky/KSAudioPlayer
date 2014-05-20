@@ -85,7 +85,7 @@ Get current track position:
 ```
 
 
-###Usage:
+###Integration:
 
 1. Drag-and-drop KSAudioPlaeyr folder into your project.
 2. Add AVFoundation.framework to your project
@@ -98,3 +98,8 @@ self.player = [KSAudioPlayer new];
 [self.player playItemWithURL:fileURL];
 ```
 
+###BASS:
+
+BASS is an audio library for use in software on several platforms. Its purpose is to provide developers with powerful and efficient sample, stream (MP3, MP2, MP1, OGG, WAV, AIFF, custom generated, and more via OS codecs and add-ons), MOD music (XM, IT, S3M, MOD, MTM, UMX), MO3 music (MP3/OGG compressed MODs), and recording functions. All in a compact DLL that won't bloat your distribution.
+
+http://www.un4seen.com
