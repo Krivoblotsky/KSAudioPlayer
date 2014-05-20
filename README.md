@@ -83,3 +83,19 @@ Get current track position:
 - (void)playerEndInterruption:(KSAudioPlayer *)player shouldResume:(BOOL)should;
 
 ```
+
+
+###Usage:
+
+1. Drag-and-drop KSAudioPlaeyr folder into your project.
+2. Add AVFoundation.framework to your project
+3. Instantiate KSAudioPlayer and have fun:
+
+```objc
+
+    NSURL *fileURL = [[NSBundle mainBundle] URLForResource:@"Meat Loaf - Dead Ringer" withExtension:@"wv"];
+    
+    self.player = [KSAudioPlayer new];
+    [self.player playItemWithURL:fileURL];
+```
+
