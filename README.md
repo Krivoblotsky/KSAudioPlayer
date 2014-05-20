@@ -17,36 +17,29 @@ Drop-in iOS Audio Player built on top of BASS-library.
 *.wv.
 ... and even more I haven't tested.
 
-Interface is dead-simple:
+###Interface is dead-simple:
+
 
 Play:
 
 `- (BOOL)playItemWithURL:(NSURL *)url;`
 
-```
-@interface KSAudioPlayer : NSObject
+Pause:
 
-@property (nonatomic, weak) id <KSAudioPlayerDelegate> delegate;
+`- (void)pause;`
 
-/*
-Play.
-Existing channel will be released
- */
-- (BOOL)playItemWithURL:(NSURL *)url;
+Resume:
 
-/*
- Player interactions
- */
-- (void)pause;
-- (void)resume;
-- (void)stop;
-- (BOOL)isPlaying;
+`- (void)resume;`
 
-/*
- Player values
- */
-- (NSTimeInterval)duration;
-- (NSTimeInterval)position;
-@end
+Is playing?:
 
-```
+`- (BOOL)isPlaying;`
+
+Get current track duration:
+
+`- (NSTimeInterval)duration;`
+
+Get current track position:
+
+`- (NSTimeInterval)position;`
