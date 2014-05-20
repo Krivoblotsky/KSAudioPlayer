@@ -15,7 +15,7 @@ Drop-in iOS Audio Player built on top of BASS-library.
 *.opus,
 *.flac,
 *.wv.
-
+... and even more I haven't tested.
 
 Interface is dead-simple:
 
