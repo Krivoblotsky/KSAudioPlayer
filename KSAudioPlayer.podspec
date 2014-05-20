@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/Krivoblotsky/KSAudioPlayer"
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author       = { "Serg Krivoblotsky" => "krivoblotsky@me.com" }
-  s.source       = { :git => "https://github.com/Alterplay/APAddressBook.git",
+  s.source       = { :git => "https://github.com/Krivoblotsky/KSAudioPlayer.git",
 		                 :tag => s.version.to_s }
   s.source_files = 'KSAudioPlayer/**/*.{h,m,a}'
   s.ios.deployment_target = "6.0"
