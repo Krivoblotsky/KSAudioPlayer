@@ -1,3 +1,5 @@
+<img src="https://dl.dropboxusercontent.com/u/11819370/ksaudioheader.png">
+
 KSAudioPlayer
 =============
 
