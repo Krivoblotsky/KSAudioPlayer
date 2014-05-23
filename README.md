@@ -12,6 +12,7 @@ Drop-in iOS Audio Player built on top of BASS-library.
 *.mp3,
 *.mp2, 
 *.mp1,
+*.wave,
 *.ogg,
 *.wav, 
 *.aiff,
